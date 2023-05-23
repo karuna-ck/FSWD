@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+<body>
+  <img class="log0" src="images/img12.png" style="align-content: end;margin-left: 0%;height:100px;width:100px;">
+  <div class="navigation" style="background-color:rgb(250, 112, 0);margin-top: 4%;height:4em;text-align:right">
+    <ul>
+      <nav class="w3-bar w3-black">
+       
+       <li> <a href="#home" class="w3-button w3-bar-item">Home</a></li>
+       <li><a href="#about us" class="w3-button w3-bar-item">about us</a></li>
+       <li><a href="#services" class="w3-button w3-bar-item">Services</a>
+       <div class="sub-menu-1">
+       <ul>
+        <li><a href="#">Rescue injured and old strey animals</a></li>
+        <li><a href="#">Medical treatment</a></li>
+        <li><a href="#">Rehabilitation</a></li>
+        <li><a href="#">adoption and awareness</a></li>
+        <li><a href="#">volunteers</a></li>
+      </ul>
+       </div>
+      </li>
+       <li><a href="#gallery" class="w3-button w3-bar-item">Gallery</a>
+        <div class="sub-menu-1">
+          <ul>
+           <li><a href="#">Shelter pictures</a></li>
+           <li><a href="#">Rescue Diaries</a></li>
+           <li><a href="#">awareness program</a></li>
+         </ul>
+          </div>
+         </li>
+         <style>
+          /* CSS styles for gallery display */
+          .gallery {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+          }
+          
+          .gallery img {
+              width: 200px;
+              height: 200px;
+              margin: 10px;
+              object-fit: cover;
+              cursor: pointer;
+          }
+          
+          .modal {
+              display: none;
+              position: fixed;
+              z-index: 1;
+              padding-top: 50px;
+              left: 0;
+              top: 0;
+              width: 100%;
+              height: 100%;
+              overflow: auto;
+              background-color: rgb(0, 0, 0);
+              background-color: rgba(0, 0, 0, 0.9);
+          }
+          
+          .modal-content {
+              margin: auto;
+              display: block;
+              width: 80%;
+              max-width: 700px;
+          }
+          
+          .modal-content img {
+              width: 100%;
+              height: auto;
+          }
+          
+          .close {
+              position: absolute;
+              top: 15px;
+              right: 35px;
+              color: #f1f1f1;
+              font-size: 40px;
+              font-weight: bold;
+              transition: 0.3s;
+              cursor: pointer;
+          }
+          
+          .close:hover,
+          .close:focus {
+              color: #bbb;
+              text-decoration: none;
+              cursor: pointer;
+          }
+      </style>
+       <li><a href="#donate" class="w3-button w3-bar-item">Donate</a></li>
+       <li><a href="#contact us" class="w3-button w3-bar-item">Contact Us</a></li>
+      </div>
+  </ul>
+  </nav>
+
+<div class="photos">
+  <section style="background-color: rgb(17, 144, 0);height:500px;">
+    <img class="mySlides" src="images/img1.png" style="margin-left: 50%;">
+    <img class="mySlides" src="images/img4.png" style="margin-left: 30%;">
+    <img class="mySlides" src="images/img3.jpeg" style="margin-left: 40%;">
+    <div class="title">
+      <h3>WELCOME TO</h3>
+      <h2>WE SAVE<br> ANIMALS</h2><h2>(WSA)</h2>
+        <P style="text-size-adjust: 11px;color: rgb(0, 0, 114);">We are a team of ardent animal lovers driven to help the<br> voiceless.
+          Being humans, let's be the voice for the voiceless.</P>
+          <div class="button1" style="background-color: rgb(17, 144, 0) ;height:13px;margin-top: 10%;"></div>
+            <a href="#" class="btn1">Learn More</a>
+          </div>
+  </section>
+</div>
+</div>
+<div class="color" style="background-color: rgb(0, 0, 142);height:30px"></div>
+  <script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+  }
+</script>
+
+  <div class="founder" style="background-color: rgb(220, 220, 220);margin-top: 40%;margin-bottom: 10%;height:600px;margin-top: 0%;">
+<div class="wsa">
+ <h1>ABOUT THE COFOUNDER</h1>
+  <img src="images/img2.png" alt="" />
+<p class="text-right" style="margin-left:20px;font-size:20px;">Praveen Kumar L, also called Rider Praveen is an ex-gym instructor who gave up his job, his means of 
+  livelihood, all his and his family’s assets and savings to start We Save Animals (WSA) Welfare Trust.From paralysed, blind, old aged 
+  animals to accident cases, cruelty cases and terminally ill animals - he takes them all in, giving them happiness, food and a home in 
+  his shelter.<br><br>It started for Praveen in 2013, when he rescued a kitten with a spinal injury. He nursed it at home, but it passed 
+  away after a week, leaving Praveen to wonder what he could do to help numerous animals like this, that suffer in silence.</p>
+  <div class="button">
+  <a href="#" class="btn">Read More</a>
+</div>
+</div>
+</div>
+<div class="wishers">
+  <div class="text"  >
+    <h1>Tharinisiri</h1>
+    <p>I have visited WSA shelter with my friends and family every year. This shelter<br>
+       is a temple for many dogs who are hurt and can't be on the streets. I feel WSA shelter<br>
+       is not just any shelter. Unlike others where the animals are caged, here, they roam<br>
+      freely and happily.<br><br>
+      Praveen is doing a good job keeping them free. All the animals enjoy their freedom with good,<br> 
+      healthy food and a clean environment. The staff is very helpful too.<br><br>
+      Praveen is doing a really good job. He is a Godfather for the animals.</p>
+    </div>
+    <img src="images/img8.png" alt=""/>
+  </div>
+  <div><
+  <div>
+  <div class="wishers1">
+    <div class="text">
+    <h1>Tejaswini</h1>
+   
+    <p>I have been closely associated with WSA for about two years now and I have got to see Praveen's<br>
+       passion and dedication for the voiceless first hand. No matter the time of the day or place, if he<br>
+       can help an animal or a human in distress, he will do it. There is absolutely no second thoughts or<br>
+       doubts about that! I have seen him nurse & nurture back to health, many fatally injured and diseased<br>
+       animals upon whom even the vets had given up on and had suggested euthanasia.  Today these animals are<br>
+       a living testimony to how unflinching care and compassion can make miracles happen and Praveen has made a<br>
+       lot of such miracles happen at his shelter.<br><br> 
+      It gives me a great sense of satisfaction to be associated with WSA. A visit to this shelter puts a big smile<br>
+       on my heart, the very sight of animals who seem to be leading a "happily ever after" lives came here when they<br>
+        were battling for their very existence!<br><br>
+      
+      I thank Praveen for this noble cause he has taken up, something for which he has made many unimaginable<br>
+       sacrifices in his own life. Its a service not just to the animals in need but for humanity.<br><br>
+      
+      Keep doing this Gods work, Praveen. May the compassion and love you exude for our fellow earthlings return<br>
+       to you multifold.</p>
+    </div>
+    <img src="images/img9.png" alt=""/>
+    </div>
+  </div>
+  <div class="info" >
+    <div class="hoo">
+      <h2 style="text-align: center;">HOURS OF OPERATION</h2>
+      <P style="text-align: center;">At the shelter, staff members are in the office and available most weekdays</P>
+  </div>
+    <div class="data">
+    <div class="address">
+      <h2 style="text-align: center;">ADDRESS</h2>
+      <P style="text-align: center;">Sy.No. 18/2, K. Chudahalli, Somanahalli Post, Near Guhantara Resort & KMS Farm,<br> 
+        Uttarahalli Hobli, Kanakapura Main Road, Bangalore - 560 082</P>
+    </div>
+  </div>
+  </div>
+       <div>
+       <footer style="background-color: rgba(105, 186, 0, 0.907);">
+
+        <div class="footercontains" >
+        <div class="socialIcons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+          <a href=""><i class="fa-brands fa-twitter"></i></a>
+          <a href=""><i class="fa-brands fa-flickr"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+       </footer>
+</body>
+</html>
